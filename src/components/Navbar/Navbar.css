@@ -1,0 +1,71 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 238, 245);
+    z-index: 100;
+}
+
+.logo {
+    width: 80px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-top: 30px;
+    /*object-fit: cover;*/
+}
+
+/* Nav icon (hamburger menu) */
+.nav-icon {
+    font-size: 24px;
+    color: rgb(6, 5, 5);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Dropdown menu */
+.menu-dropdown {
+    position: absolute;
+    top: 70px; /* below navbar */
+    left: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 180px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    border-radius: 4px;
+}
+
+.menu-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-dropdown li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-dropdown li:last-child {
+    border-bottom: none;
+}
+
+.menu-dropdown li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: background-color 0.2s;
+}
+
+.menu-dropdown li:hover {
+    background-color: #f0f0f0;
+}

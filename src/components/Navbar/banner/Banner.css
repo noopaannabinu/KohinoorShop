@@ -1,0 +1,24 @@
+.banner{
+    background-image:url('https://images.pexels.com/photos/8793484/pexels-photo-8793484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    height:200%;
+    width: 100%;
+    color:rgb(244, 236, 236);
+    
+}
+.content{
+    padding-top: 100px;
+    height:190px;
+}
+.title{
+    font-size:3rem;
+    font-weight: 800;
+    padding-bottom: .3rem;
+}
+
+
+.description{
+    font-size:3rem;
+    font-weight: 1000;
+    padding-bottom: .10rem;
+}
