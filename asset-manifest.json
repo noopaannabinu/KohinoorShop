@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KohinoorShop/static/css/main.4839176f.css",
-    "main.js": "/KohinoorShop/static/js/main.67ba30c4.js",
+    "main.js": "/KohinoorShop/static/js/main.ac8c3e47.js",
     "static/js/453.655b9aa3.chunk.js": "/KohinoorShop/static/js/453.655b9aa3.chunk.js",
     "static/media/tile1.jpg": "/KohinoorShop/static/media/tile1.ac546ab796de06873375.jpg",
     "static/media/ko15.jpg": "/KohinoorShop/static/media/ko15.d4c2fdf9e06cfed2c74f.jpg",
@@ -15,11 +15,11 @@
     "static/media/k6.jpg": "/KohinoorShop/static/media/k6.91ed3727f6bd84086bdc.jpg",
     "index.html": "/KohinoorShop/index.html",
     "main.4839176f.css.map": "/KohinoorShop/static/css/main.4839176f.css.map",
-    "main.67ba30c4.js.map": "/KohinoorShop/static/js/main.67ba30c4.js.map",
+    "main.ac8c3e47.js.map": "/KohinoorShop/static/js/main.ac8c3e47.js.map",
     "453.655b9aa3.chunk.js.map": "/KohinoorShop/static/js/453.655b9aa3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4839176f.css",
-    "static/js/main.67ba30c4.js"
+    "static/js/main.ac8c3e47.js"
   ]
 }
