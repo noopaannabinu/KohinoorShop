@@ -2,26 +2,30 @@ import React from 'react';
 import './fproducts.css';
 import { useNavigate } from 'react-router-dom'; // ✅ import navigate
 
-const products = [{
-    name: "Premium Tiles",
-    image: "tile1.jpg",
-    description: "Stylish and durable tiles for every room."
+const products = [
+  {
+    name: "WPC Doors",
+    image: "wpc.jpg",
+    description: "Durable, water-resistant doors perfect for all weather conditions."
   },
   {
-    name: "Clear Glass",
-    image: "glass1.jpg",
-    description: "Top-quality glass for windows, shelves, and decor."
+    name: "Plywood",
+    image: "plywood.jpg",
+    description: "Strong, versatile plywood for furniture and interior projects."
   },
   {
-    name: "Strong Plywood",
-    image: "ply1.jpg",
-    description: "Reliable and long-lasting plywood for furniture."
+    name: "Wooden Doors",
+    image: "woodendoor.jpg",
+    description: "Elegant solid-wood doors that bring natural warmth to your home."
   },
+  
   {
-    name: "Sanitary Ware",
-    image: "door1.jpg",
-    description: "Modern sanitary fittings for your dream bathroom."
-  }];
+    name: "Designer Mirrors",
+    image: "glass.jpg",
+    description: "Stylish mirrors that add depth and a touch of luxury to any space."
+  }
+];
+
 
 function FeaturedProducts() {
   const navigate = useNavigate(); // ✅
