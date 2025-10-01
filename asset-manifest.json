@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/KohinoorShop/static/css/main.4839176f.css",
-    "main.js": "/KohinoorShop/static/js/main.ac8c3e47.js",
+    "main.css": "/KohinoorShop/static/css/main.5c21cbdd.css",
+    "main.js": "/KohinoorShop/static/js/main.d10ee604.js",
     "static/js/453.655b9aa3.chunk.js": "/KohinoorShop/static/js/453.655b9aa3.chunk.js",
+    "static/media/kohilogo.png": "/KohinoorShop/static/media/kohilogo.41c048fbdbf11e8fe8af.png",
     "static/media/tile1.jpg": "/KohinoorShop/static/media/tile1.ac546ab796de06873375.jpg",
     "static/media/ko15.jpg": "/KohinoorShop/static/media/ko15.d4c2fdf9e06cfed2c74f.jpg",
     "static/media/ko10.jpg": "/KohinoorShop/static/media/ko10.8714d235da5599b27c68.jpg",
+    "static/media/glass.jpg": "/KohinoorShop/static/media/glass.85051692dda0d306263d.jpg",
     "static/media/glass1.jpg": "/KohinoorShop/static/media/glass1.6d189c5ed7529ccd5e17.jpg",
     "static/media/k4.jpg": "/KohinoorShop/static/media/k4.f1549c5b223c2bbc7f1b.jpg",
     "static/media/ply1.jpg": "/KohinoorShop/static/media/ply1.4395ba4e0bf93621e6b7.jpg",
@@ -14,12 +16,12 @@
     "static/media/k2.jpg": "/KohinoorShop/static/media/k2.53ef62d5d06a1e54d1cc.jpg",
     "static/media/k6.jpg": "/KohinoorShop/static/media/k6.91ed3727f6bd84086bdc.jpg",
     "index.html": "/KohinoorShop/index.html",
-    "main.4839176f.css.map": "/KohinoorShop/static/css/main.4839176f.css.map",
-    "main.ac8c3e47.js.map": "/KohinoorShop/static/js/main.ac8c3e47.js.map",
+    "main.5c21cbdd.css.map": "/KohinoorShop/static/css/main.5c21cbdd.css.map",
+    "main.d10ee604.js.map": "/KohinoorShop/static/js/main.d10ee604.js.map",
     "453.655b9aa3.chunk.js.map": "/KohinoorShop/static/js/453.655b9aa3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4839176f.css",
-    "static/js/main.ac8c3e47.js"
+    "static/css/main.5c21cbdd.css",
+    "static/js/main.d10ee604.js"
   ]
 }
