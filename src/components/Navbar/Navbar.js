@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import './Navbar.css';
-import kohilogo from './kohilogo.png';
+import kohilogo from '../../assets/images/kohilogo.png';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  // Close menu when a link is clicked
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <div className="navbar">
@@ -18,10 +23,18 @@ function Navbar() {
       {menuOpen && (
         <div className="menu-dropdown">
           <ul>
-           <li><Link to="/">Home</Link></li>
-          <li><Link to="/viewproducts">Products</Link></li>
-          <li><Link to="/#about">About</Link></li>
-          <li><Link to="/#contact">Contact</Link></li>
+            <li>
+              <Link to="/" onClick={handleLinkClick}>Home</Link>
+            </li>
+            <li>
+              <Link to="/viewproducts" onClick={handleLinkClick}>Products</Link>
+            </li>
+            <li>
+              <Link to="/aboutus" onClick={handleLinkClick}>About</Link>
+            </li>
+            <li>
+              <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
+            </li>
           </ul>
         </div>
       )}

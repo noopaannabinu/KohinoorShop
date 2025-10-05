@@ -1,26 +1,47 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './about.css';
 
 function About() {
   return (
-    <div className="about-section">
+    <div className="about-section" style={{ position: 'relative', minHeight: '100vh', padding: '20px' }}>
+      {/* About Text */}
       <h2>About Us</h2>
       <p>
-        <strong>Kohinoor Glass and Plywood</strong> has proudly served the community for over <strong>25 years</strong>,
-        becoming a trusted name in the region for <strong>quality, reliability, and service</strong>.
+        Kohinoor Glass & Plywood is dealing with products such as tiles, sanitary ware, tap fittings, hardware, locks, mirrors, and other building materials.
       </p>
       <p>
-        From elegant tiles to premium plywood, from crystal-clear glass to top-grade sanitary ware,
-        we offer a wide range of products designed to enhance the beauty and functionality of your home or commercial space.
+        We also supply Melwood WPC doors, Kattla, window frames, designer mirrors, teak doors, window membrane doors, UV doors, louvres, chimneys, burners, and many more.
       </p>
       <p>
-        Our commitment to <strong>affordable pricing</strong>, <strong>top-notch quality</strong>, and
-        <strong> exceptional customer support</strong> has earned us the loyalty of countless customers over the decades.
+        We have brands like Century, PVC, WPC, Oxywood, Plywood, Powerwood, Godrej, Butterfly, Saint-Gobain glass, Greenwood, Odiwood, Supreme—we are authorized dealers for these brands.
       </p>
       <p>
-        Whether you're building your dream home or renovating a space, Kohinoor is your one-stop destination for
-        everything you need in <strong>tiles, glass, plywood, and sanitaryware</strong>.
+       We also undertake interior and exterior work, supply and fix WPC doors, windows, window frames and provide on-site service for our customers.
       </p>
+
+      {/* Centered Button */}
+      <div style={{ textAlign: 'center', marginTop: '40px' }}>
+        <Link 
+          to="/aboutus" 
+          style={{
+            display: 'inline-block',
+            padding: '15px 30px',
+            backgroundColor: '#007bff',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '5px',
+            textDecoration: 'none',
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            transition: 'background-color 0.3s ease'
+          }}
+          onMouseOver={(e) => e.target.style.backgroundColor = '#0056b3'}
+          onMouseOut={(e) => e.target.style.backgroundColor = '#007bff'}
+        >
+          View More
+        </Link>
+      </div>
     </div>
   );
 }
