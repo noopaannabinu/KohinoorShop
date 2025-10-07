@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Banner.css';
 import bg1 from '../../../assets/images/bg1.jpg';
 import bg2 from '../../../assets/images/bg2.jpg';
@@ -8,6 +8,15 @@ const images = [bg1, bg2, bg3];
 
 function Banner() {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Auto-slide every 3 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000); // 3000ms = 3 seconds
+
+    return () => clearInterval(interval); // cleanup on unmount
+  }, []);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -20,11 +29,13 @@ function Banner() {
   return (
     <div className="banner">
       <img src={images[currentIndex]} alt="banner" className="banner-image" />
+
       <div className="content">
         <h1 className="description">
-          
+          {/* Add your heading text here if needed */}
         </h1>
       </div>
+
       <button className="prev" onClick={prevSlide}>&lt;</button>
       <button className="next" onClick={nextSlide}>&gt;</button>
     </div>
