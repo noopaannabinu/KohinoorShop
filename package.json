@@ -2,7 +2,7 @@
   "name": "sample",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://noopaannabinu.github.io/KohinoorShop",
+  "homepage": "https://kohinoor-shop.vercel.app",
   "dependencies": {
     "cloudinary": "^2.6.0",
     "cors": "^2.8.5",
