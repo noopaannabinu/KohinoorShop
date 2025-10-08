@@ -13,9 +13,9 @@ function Banner() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // 3000ms = 3 seconds
+    }, 3000);
 
-    return () => clearInterval(interval); // cleanup on unmount
+    return () => clearInterval(interval);
   }, []);
 
   const nextSlide = () => {
@@ -32,7 +32,7 @@ function Banner() {
 
       <div className="content">
         <h1 className="description">
-          {/* Add your heading text here if needed */}
+          {/* Optional heading or tagline */}
         </h1>
       </div>
 
