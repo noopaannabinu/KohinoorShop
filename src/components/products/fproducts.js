@@ -18,13 +18,18 @@ const products = [
     image: "woodendoor.jpg",
     description: "Elegant solid-wood doors that bring natural warmth to your home."
   },
-  
   {
     name: "Designer Mirrors",
     image: "glass.jpg",
     description: "Stylish mirrors that add depth and a touch of luxury to any space."
+  },
+  {
+    name: "Kitchen Cabinets",
+    image: "kc.jpg",
+    description: "Modern, space-efficient kitchen cabinets designed for style and functionality."
   }
 ];
+
 
 
 function FeaturedProducts() {

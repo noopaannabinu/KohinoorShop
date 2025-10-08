@@ -11,10 +11,10 @@ function About() {
         Kohinoor Glass & Plywood is dealing with products such as tiles, sanitary ware, tap fittings, hardware, locks, mirrors, and other building materials.
       </p>
       <p>
-        We also supply Melwood WPC doors, Kattla, window frames, designer mirrors, teak doors, window membrane doors, UV doors, louvres, chimneys, burners, and many more.
+        We also supply Multiwood, WPC doors, Kattla, window frames, designer mirrors, teak doors, window, membrane doors, UV doors, louvres, chimneys, burners, and many more.
       </p>
       <p>
-        We have brands like Century, PVC, WPC, Oxywood, Plywood, Powerwood, Godrej, Butterfly, Saint-Gobain glass, Greenwood, Odiwood, Supreme—we are authorized dealers for these brands.
+        We have brands like Century PVC WPC, Oxywood, Plywood, Powerwood, Godrej, Supreme, Saint-Gobain glass, Greenwood, Odiwood, Supreme—we are authorized dealers for these brands.
       </p>
       <p>
        We also undertake interior and exterior work, supply and fix WPC doors, windows, window frames and provide on-site service for our customers.
