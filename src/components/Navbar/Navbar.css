@@ -22,7 +22,7 @@
     color: #222;
 }
 
-/* Avatar */
+/* Avatar / Logo Image */
 .avatar {
     width: 180px;
     height: 130px;
@@ -126,22 +126,25 @@
         font-size: 1.2rem;
     }
 
-    /* Hide desktop links */
+    /* Hide horizontal desktop links */
     .nav-links {
         display: none;
     }
 
-    /* Show hamburger */
+    /* Show hamburger icon */
     .nav-icon {
         display: block;
     }
 
-    /* Hide avatar to save space */
+    /* Keep avatar visible but smaller */
     .avatar {
-        display: none;
+        display: block;
+        width: 80px;
+        height: 60px;
+        margin-left: 8px;
     }
 
-    /* Adjust dropdown */
+    /* Adjust dropdown position */
     .menu-dropdown {
         top: 70px;
     }
@@ -153,7 +156,18 @@
         font-size: 1rem;
     }
 
+    .avatar {
+        width: 60px;
+        height: 45px;
+        margin-left: 5px;
+    }
+
     .menu-dropdown li {
         padding: 12px 18px;
+    }
+
+    .prev, .next {
+        font-size: 1.5rem;
+        padding: 5px 8px;
     }
 }
